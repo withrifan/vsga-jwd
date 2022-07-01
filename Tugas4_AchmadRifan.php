@@ -6,7 +6,7 @@
     <title>Tugas4_AchmadRifan.php</title>
 </head>
 <body>
-<form action="Tugas4_AchmadRifan.php" method="POST">
+<form action="" method="POST">
     Jumlah Bintang = <input type="text" name="jumlahbintang" />
     <br />
     <input type="submit" name="submit" value="kirim">
@@ -19,8 +19,8 @@
         echo "*";
     }
     echo "<br />";
-    }
-}
+    };
+};
 ?>
 </body>
 </html>
