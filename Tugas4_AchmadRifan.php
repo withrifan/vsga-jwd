@@ -7,7 +7,7 @@
 </head>
 <body>
     <form action="" method="POST">
-        Jumlah Bintang = <input type="text" name="jumlahbintang" />
+        Jumlah Bintang = <input type="number" name="jumlahbintang" placeholder="Input your stars" />
         <br />
         <input type="submit" name="submit" value="kirim">
     </form>
