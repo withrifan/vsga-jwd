@@ -1,5 +1,5 @@
 # VSGA-JWD
-Alhamdulillah
+Alhamdulillah🤲
 Repository khusus untuk belajar Junior Web Developer dari DTS
 
 Repository ini terdiri dari beberapa tugas yaitu:
