@@ -59,12 +59,12 @@ echo "<br><br>";
 
 
 echo "ini adalah foreach <br>";
-// Foreach
-// hanya digunakan untuk setiap
-// key atau value pada array,
-// dapat membaca dalam bentuk angka
-// maupun kata kunci
-// (array 1 dimensi, asosiatif, multidimensi)
+/* Foreach
+hanya digunakan untuk setiap
+key atau value pada array,
+dapat membaca dalam bentuk angka
+maupun kata kunci
+(array 1 dimensi, asosiatif, multidimensi) */
 echo "----ini array satu dimensi----<br>";
 $mahasiswa1 = ["Ani", "Ana", "Ane"];
 foreach ($mahasiswa1 as $value1) {
@@ -102,7 +102,7 @@ foreach ($kampusA as $key2 => $value3) {
 }
 echo "<br>";
 $kampusB = [
-    "guru1" => ["Nama" => "Yani", "Umur" => 24, "Jurusan" => "Teknik Sipit"],
+    "guru1" => ["Nama" => "Yani", "Umur" => 24, "Jurusan" => "Teknik Sipil"],
     "guru2" => ["Nama" => "Yeni", "Umur" => 30, "Jurusan" => "Teknik komputer"],
     "guru3" => ["Nama" => "Yono", "Umur" => 28, "Jurusan" => "Kedokteran"]
 ];
@@ -110,4 +110,57 @@ foreach ($kampusB as $keyguru => $daftarguru) {
     echo "Nama" . $daftarguru["Nama"] . " Umur: " . $daftarguru["Umur"] . "Jurusan: " . $daftarguru["Jurusan"] . "<br>";
 }
 echo "<br>";
+echo "<br>";
+
+
+/* Break statement
+digunakan untuk melompat dari loop
+Jika $break1 sama dengan 7 
+maka pencetakannya terhenti sampai angka 6 */
+echo "ini adalah break statement <br>";
+for ($break1 = 0; $break1 < 10; $break1++) {
+    if ($break1 == 7) {
+        break;
+    }
+    echo "Contoh break, angka: $break1 <br>";
+}
+echo "<br>";
+echo "<br>";
+
+
+/* Continue statement
+akan melewati angka 4 dan
+tetap melanjutkan proses loop selanjutnya
+*/
+echo "ini adalah continue statement <br>";
+for ($continue1 = 0; $continue1 < 10; $continue1++) {
+    if ($continue1 == 4) {
+        continue;
+    }
+    echo "Contoh continue, angka: $continue1<br>";
+}
+echo "<br>";
+
+//Break & Continue in While Loop
+echo "ini adalah break statement in while loop<br>";
+$break2 = 10;
+while ($break2 >= 1) {
+    if ($break2 == 18) {
+        break;
+    }
+    echo "Contoh break in while loop, angka: $break2 <br>";
+    $break2++;
+}
+echo "<br>";
+
+echo "ini adalah continue statement in while loop<br>";
+$continue2 = 0;
+while ($continue2 < 20) {
+    if ($continue2 == 8) {
+        $continue2++;
+        continue;
+    }
+    echo "Contoh continue in while loop, angka: $continue2<br>";
+    $continue2++;
+}
 ?>
