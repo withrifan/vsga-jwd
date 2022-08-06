@@ -10,4 +10,4 @@ This repository consists of several tasks such as:
 4. The task of making a PHP program that prints a star (*) according to the number entered by using the POST method and looping
 5. The task of making a simple PHP calculator program using the POST method and the add, subtract, multiply, and divide functions.
 6. Giving the appearance of a simple calculator using CSS
-7. Creating a file README for a simple kalkultor
+7. Creating a file README for a simple calculator
